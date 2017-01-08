@@ -1,7 +1,7 @@
 from cart import *
 import unittest
 
-#shopping cart class used for py unittest
+#unit tests for cart class
 class ShoppingCartTest(unittest.TestCase):
 	def setUp(self):
 		self.cart = ShoppingCart().add("tuna sandwich", 15.00)
